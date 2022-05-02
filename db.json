@@ -1,4 +1,4 @@
-["post" : [{"id":1,"first_name":"Raynard","last_name":"Morena","email":"rmorena0@bloglovin.com","gender":"Male","ip_address":"88.21.67.176"},
+{"Posts": [{"id":1,"first_name":"Raynard","last_name":"Morena","email":"rmorena0@bloglovin.com","gender":"Male","ip_address":"88.21.67.176"},
 {"id":2,"first_name":"Kane","last_name":"Bradlaugh","email":"kbradlaugh1@dyndns.org","gender":"Male","ip_address":"65.19.80.128"},
 {"id":3,"first_name":"Lucas","last_name":"Melling","email":"lmelling2@scientificamerican.com","gender":"Male","ip_address":"61.175.188.175"},
 {"id":4,"first_name":"Ciel","last_name":"Tuft","email":"ctuft3@istockphoto.com","gender":"Female","ip_address":"52.148.249.42"},
@@ -7,4 +7,4 @@
 {"id":7,"first_name":"Pavla","last_name":"Jandl","email":"pjandl6@loc.gov","gender":"Genderfluid","ip_address":"37.123.61.134"},
 {"id":8,"first_name":"Joshuah","last_name":"Hullot","email":"jhullot7@economist.com","gender":"Agender","ip_address":"105.31.58.6"},
 {"id":9,"first_name":"Hobey","last_name":"Sheaber","email":"hsheaber8@altervista.org","gender":"Male","ip_address":"209.34.144.103"},
-{"id":10,"first_name":"Thaine","last_name":"Henden","email":"thenden9@a8.net","gender":"Male","ip_address":"162.136.159.203"}]]
+{"id":10,"first_name":"Thaine","last_name":"Henden","email":"thenden9@a8.net","gender":"Male","ip_address":"162.136.159.203"}]}
