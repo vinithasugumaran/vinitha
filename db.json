@@ -1,0 +1,372 @@
+[
+  {
+    "formid": "formid_202214162928",
+    "formname": "Customer Form",
+    "createdby": "941364",
+    "createdate": "2022-02-04",
+    "sections": [
+      {
+        "sectionid": "fw1",
+        "sectionname": "Customer Basic Information",
+        "section-col": 1,
+        "rows": [
+          {
+            "rowid": "row_2",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214164224",
+                "name": "Customer Name",
+                "label": "inputbox",
+                "diplayname": "",
+                "title": "",
+                "description": "customer description",
+                "maxlength": "100",
+                "defaultvalue": "Customer Name",
+                "required": true,
+                "readonly": true,
+                "inputtype": "1",
+                "active": true,
+                "displayname": "Customer Name"
+              }
+            ]
+          },
+          {
+            "rowid": "row_3",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214164330",
+                "name": "Customer Email",
+                "label": "inputbox",
+                "diplayname": "",
+                "title": "",
+                "description": "Customer Email",
+                "maxlength": "100",
+                "defaultvalue": "Email",
+                "required": true,
+                "readonly": true,
+                "inputtype": "1",
+                "active": true,
+                "displayname": "Customer Email"
+              }
+            ]
+          },
+          {
+            "rowid": "row_4",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214164423",
+                "name": "Customer Phone",
+                "label": "inputbox",
+                "diplayname": "",
+                "title": "",
+                "description": "Customer Phone",
+                "maxlength": "100",
+                "defaultvalue": "9999999999",
+                "required": true,
+                "readonly": true,
+                "inputtype": "1",
+                "active": true,
+                "displayname": "Customer Phone"
+              }
+            ]
+          },
+          {
+            "rowid": "row_5",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_20221416456",
+                "name": "Customer Address",
+                "label": "inputbox",
+                "diplayname": "",
+                "title": "",
+                "description": "Customer Address",
+                "maxlength": "400",
+                "defaultvalue": "Enter Address",
+                "required": true,
+                "readonly": true,
+                "inputtype": "2",
+                "active": true,
+                "displayname": "Customer Address"
+              }
+            ]
+          },
+          {
+            "rowid": "row_6",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214164551",
+                "label": "selectbox",
+                "lookupvalues": true,
+                "alphabetical": true,
+                "multiselect": false,
+                "name": "status",
+                "displayname": "Status",
+                "description": "status",
+                "required": true,
+                "active": true
+              }
+            ]
+          },
+          {
+            "rowid": "row_7",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214164656",
+                "label": "date",
+                "range": "",
+                "defaultdate": {
+                  "year": 2022,
+                  "month": 2,
+                  "day": 10
+                },
+                "readonly": true,
+                "name": "startdate",
+                "displayname": "Start Date",
+                "description": "startdate",
+                "defaultvalue": "",
+                "required": true,
+                "active": true,
+                "daterange": "1",
+                "dateformat": "dd-mm-yyyy"
+              }
+            ]
+          },
+          {
+            "rowid": "row_8",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214164734",
+                "label": "url",
+                "targetwindow": "1",
+                "linkname": "https:/www.google.com",
+                "title": true,
+                "name": "website",
+                "displayname": "Website",
+                "description": "web url",
+                "required": true,
+                "active": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionid": "fw2",
+        "sectionname": "Customer Business Information",
+        "section-col": 1,
+        "rows": [
+          {
+            "rowid": "row_9",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214164942",
+                "label": "radio",
+                "radiobuttonvalue": "",
+                "alignment": "Horizontal",
+                "alphabetical": true,
+                "name": "needwebsite",
+                "displayname": "Is Customer Need Website ?",
+                "description": "Need Webiste to describe need of customer ",
+                "required": true,
+                "active": true
+              }
+            ]
+          },
+          {
+            "rowid": "row_10",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214165050",
+                "label": "checkbox",
+                "checkboxvalue": "",
+                "alignment": "Vertical",
+                "alphabetical": true,
+                "name": "businesstype",
+                "displayname": "Business Type",
+                "description": "businesstype",
+                "required": true,
+                "active": true
+              }
+            ]
+          },
+          {
+            "rowid": "row_11",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_202214165214",
+                "label": "selectbox",
+                "lookupvalues": true,
+                "alphabetical": true,
+                "multiselect": true,
+                "name": "Locality",
+                "displayname": "Locality",
+                "description": "Locality",
+                "required": true,
+                "active": true
+              }
+            ]
+          },
+          {
+            "rowid": "row_12",
+            "sequence": 0,
+            "elements": [
+              {
+                "id": "elembox_20220225185449",
+                "label": "file",
+                "filetype": "1",
+                "name": "Attachment",
+                "displayname": "Attachment",
+                "description": "Attachment",
+                "required ": false,
+                "active": true,
+                "required": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "choiceslist": [
+      {
+        "choicesforid": "elembox_202214165214",
+        "values": [
+          [
+            {
+              "id": "choice_1",
+              "label": "Chennai",
+              "value": "Chennai",
+              "selected": false
+            },
+            {
+              "id": "choice_2",
+              "label": "Pune",
+              "value": "Pune",
+              "selected": false
+            },
+            {
+              "id": "choice_3",
+              "label": "Bangalore",
+              "value": "Bangalore",
+              "selected": false
+            },
+            {
+              "id": "choice_4",
+              "label": "Hyderabad",
+              "value": "Hyderabad",
+              "selected": false
+            },
+            {
+              "id": "choice_5",
+              "label": "Kolkatta",
+              "value": "Kolkatta",
+              "selected": false
+            }
+          ]
+        ]
+      },
+      {
+        "choicesforid": "elembox_202214165050",
+        "values": [
+          [
+            {
+              "id": "choice_1",
+              "label": "Admin",
+              "value": "Admin",
+              "selected": false
+            },
+            {
+              "id": "choice_2",
+              "label": "Legal",
+              "value": "Legal",
+              "selected": false
+            },
+            {
+              "id": "choice_3",
+              "label": "Account Payable",
+              "value": "Account Payable",
+              "selected": false
+            },
+            {
+              "id": "choice_4",
+              "label": "Finance",
+              "value": "Finance",
+              "selected": false
+            },
+            {
+              "id": "choice_5",
+              "label": "IT",
+              "value": "IT",
+              "selected": false
+            },
+            {
+              "id": "choice_6",
+              "label": "Procurement",
+              "value": "Procurement",
+              "selected": false
+            },
+            {
+              "id": "choice_7",
+              "label": "Support",
+              "value": "Support",
+              "selected": false
+            },
+            {
+              "id": "choice_8",
+              "label": "Site Support",
+              "value": "Site Support",
+              "selected": false
+            }
+          ]
+        ]
+      },
+      {
+        "choicesforid": "elembox_202214164942",
+        "values": [
+          [
+            {
+              "id": "choice_1",
+              "label": "Yes",
+              "value": "Yes",
+              "selected": false
+            },
+            {
+              "id": "choice_2",
+              "label": "No",
+              "value": "No",
+              "selected": false
+            }
+          ]
+        ]
+      },
+      {
+        "choicesforid": "elembox_202214164551",
+        "values": [
+          [
+            {
+              "id": "choice_1",
+              "label": "Active",
+              "value": "Active",
+              "selected": false
+            },
+            {
+              "id": "choice_2",
+              "label": "InActive",
+              "value": "InActive",
+              "selected": false
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]
